@@ -1,0 +1,34 @@
+To get title of page- driver.getTitle()
+To get url of page-driver.getCurrentUrl()
+to navigate back- driver.navigate().back();
+to hold for sometime- Thread.sleep(2000);
+to navigate forward-driver.navigate().forward();
+to refresh- driver.navigate().refresh();
+to close browser- driver.close();
+
+
+
+Locator-
+By id
+By name
+ByclassName
+BylinkText()
+partialLinkText()
+By xpath-   //tagname[@attribute_name=’attribute_value’]
+
+customization of xpath-
+contains()- //tagname[contains(@attributename,'constantattributevalue')]
+
+indexing()-   (//tagname[@attribute_name=’attribute_value’])[2]
+
+starts-with-    //tagname[starts-with(@attribute_name,’attribute_value’)]
+
+text()  -     //tagname[text()=’textvalue’]
+
+
+
+
+
+
+
+
